@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controladores.ListarPorPeriodoControlador">
+   <children>
+      <Button layoutX="22.0" layoutY="24.0" mnemonicParsing="false" onAction="#voltar" text="Voltar">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tabelaProducao" layoutX="210.0" layoutY="117.0" prefHeight="200.0" prefWidth="200.0">
+         <columns>
+            <TableColumn fx:id="colunaBrinco" text="Brinco" />
+            <TableColumn fx:id="colunaProducao" prefWidth="118.39996337890625" text="Produção (litros)" />
+         </columns>
+      </TableView>
+      <ComboBox fx:id="listar" layoutX="235.0" layoutY="51.0" onAction="#mostrar" prefWidth="150.0" />
+      <Button layoutX="385.0" layoutY="334.0" mnemonicParsing="false" onAction="#listarPorMes" text="Listar por mês">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="92.0" layoutY="334.0" mnemonicParsing="false" onAction="#listarPorDia" text="Listar por dia">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
