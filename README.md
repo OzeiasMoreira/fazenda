@@ -1,8 +1,8 @@
-Projeto Final - Gestão de Produção de Leite
+PROJETO FINAL - GESTÃO DE PRODUÇÃO DE LEITE
 
 Este projeto foi desenvolvido como parte da disciplina de Programação II e tem como objetivo criar um sistema de gestão para uma fazenda, focado no controle da produção de leite. O sistema é capaz de gerenciar usuários (funcionários), animais (vacas), e registrar a produção diária de leite de cada vaca. O projeto utiliza uma interface gráfica para interação e MongoDB para armazenamento dos dados.
 
-Funcionalidades
+FUNCIONALIDADES
 
 Gerenciar Usuários: Cadastro e alteração de usuários (funcionários), com dados como login, nome e senha.
 
@@ -15,7 +15,7 @@ Produção diária
 Produção mensal
 Produção por animal
 
-Como Usar o Sistema
+COMO USAR
 
 Tela de Login: Insira suas credenciais para acessar o sistema.
 
