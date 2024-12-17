@@ -30,7 +30,7 @@ public class NovoUsuarioControlador {
         Usuario user = dao.buscarPorChave("login", login.getText());
 
         if (user == null) {
-            // Cria um novo usuário com a senha pura (sem hash)
+            
             user = new Usuario(nome.getText(),login.getText(), senha.getText());
             dao.inserir(user);
 
